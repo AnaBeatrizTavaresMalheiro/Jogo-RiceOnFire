@@ -83,8 +83,8 @@ body {
 
 #dev_um img{
   border-radius: 50%;
-  min-width: 45%;
-  max-width: 45%;
+  min-width: 40%;
+  max-width: 40%;
   border: 0.5vh rgb(49, 49, 49) solid;
 }
 
@@ -98,8 +98,8 @@ body {
 
 #dev_dois img{
   border-radius: 50%;
-  min-width: 45%;
-  max-width: 45%;
+  min-width: 40%;
+  max-width: 40%;
   border: 0.5vh rgb(49, 49, 49) solid;
 
 }
@@ -110,7 +110,8 @@ body {
   padding: 3vh;
   border-radius: 1vh;
   margin: 20px;
-  font-size: 12px;
+  font-size: 13px;
+  width: 90%;
 
 }
 
@@ -121,6 +122,13 @@ body {
   align-items: center;
 }
 
+#redes_sociais{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 0.5rem;
+}
 .descricao a{
   color: white;
 }
